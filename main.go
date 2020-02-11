@@ -21,7 +21,7 @@ func main() {
 	query := os.Args[2]
 
 	now := time.Now()
-	start := now.Add(-4 * time.Hour).Format("2006-01-02 15:04:05")
+	start := now.Add(-10 * time.Hour).Format("2006-01-02 15:04:05")
 	end := now.Format("2006-01-02 15:04:05")
 
 	search := fmt.Sprintf(`
